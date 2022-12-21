@@ -203,7 +203,7 @@ export const educationInfo = [
     subHeader: "Bachelor of Computer Application",
     duration: "Jul 2018 - Jul 2021",
     desc: "Part of Amity-Coding-Club. Hosted several Hackethons and coding events and participated in them as well.",
-    // grade: "Grade A",  
+    // grade: "Grade A",
     // descBullets: [
     //   "",
     // ],
@@ -231,36 +231,51 @@ export const experience = [
     company: "Verzeo Edutech",
     companylogo: "/img/icons/common/v.png",
     date: "May 2020 – Jul 2020",
-    desc: "In this project-based internship, the team of Three members dealt with a dataset and implemented Data Processing/Analysis using libraries like matplotlib and pandas. Skills: Python ·Seaborn ·Matplotlib ·NumPy ·EDA ·Data Analysis"
-  }
+    desc: "In this project-based internship, the team of Three members dealt with a dataset and implemented Data Processing/Analysis using libraries like matplotlib and pandas. Skills: Python ·Seaborn ·Matplotlib ·NumPy ·EDA ·Data Analysis",
+  },
 ];
 
 export const projects = [
   {
-    name: "AtlasMart",
-    desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-    github: "https://github.com/1hanzla100/Django-React-Marketplace",
+    name: "Dev Finder",
+    desc: "A small react app that helps us find and see the stats of you favourite GitHub user.",
+    github: "https://github.com/JAY9039/Sweet-Dev-Finder",
   },
   {
-    name: "Technota (Forum)",
-    desc: "Get hands-on experience in technical skills with Technota",
-    github: "https://github.com/1hanzla100/django-react-forum",
+    name: "Finanssi",
+    desc: "Finanssi is a tool to track changes for your faviourite Crypto Coins and Stocks, News about the recent market changes, Information regarding how investments work in stocks and coin market.",
+    github: "https://github.com/JAY9039/Finanssi",
   },
   {
-    name: "Shopaza (Ecommerce)",
-    desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-    github: "https://github.com/1hanzla100/Django-ecommerce",
+    name: "Wordle",
+    desc: "Just a small word Guessing game using ReactJs",
+    github: "https://github.com/JAY9039/Sweet-Wordle",
+  },
+  {
+    name: "Finanssi Coins",
+    desc: "This app shows you the price of some leading cryptocurrencies and Plots a graph that shows their 7 day change in its pricing.",
+    github: "https://github.com/JAY9039/FinanssiCoins",
+  },
+  {
+    name: "AccuWeather",
+    desc: "This react-native app gets you the real time weather condition of the city of your choice.",
+    github: "https://github.com/JAY9039/AccuWeather",
+  },
+  {
+    name: "Sweet-Netflix",
+    desc: "A simple Netflix UI clone.",
+    github: "https://github.com/JAY9039/Sweet-Netflix",
   },
 ];
 
 export const feedbacks = [
   {
-    name: "John Smith",   
+    name: "P1",
     feedback:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
   },
   {
-    name: "John Smith",
+    name: "P2",
     feedback:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
   },
@@ -276,7 +291,7 @@ export const seoData = {
     "A passionate Full Stack Web Developer and Blockchain Developer.",
   author: "Hanzla Tauqeer",
   image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-//   url: "https://developer-portfolio-1hanzla100.vercel.app",
+  //   url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
     "Jay",
     "Jay Sharma",
