@@ -192,57 +192,50 @@ export const educationInfo = [
     schoolName: "Vellore Institute of Technology, Bhopal",
     subHeader: "Master of Computer Application",
     duration: "Jul 2021 - Jul 2023",
-    desc: "Participated in the research of XXX and published 3 papers.",
-    grade: "Grade A",
+    desc: "Member of placement coordination team for MCA (batch 2021-2023)",
+    // grade: "Grade A",
     descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Current doing my internship in a Gurugram, IN based real state company as a Software Developer Intern: ReactJs.",
     ],
+  },
+  {
+    schoolName: "Amity University Madhya Pradesh",
+    subHeader: "Bachelor of Computer Application",
+    duration: "Jul 2018 - Jul 2021",
+    desc: "Part of Amity-Coding-Club. Hosted several Hackethons and coding events and participated in them as well.",
+    // grade: "Grade A",  
+    // descBullets: [
+    //   "",
+    // ],
   },
 ];
 
 export const experience = [
   {
-    role: "Frontend Developer",
-    company: "Duseca Software",
-    companylogo: "/img/icons/common/dusecaSoftware.jpg",
+    role: "Software Developer Intern - ReactJs",
+    company: "SeedWill Consulting",
+    companylogo: "/img/icons/common/sw.jpg",
     date: "Apr 2022 – Jun 2022",
-    desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+    desc: "Working on a CRM and a Real-Estate Application with business logic and optimal functionality.In this migration project our team was responsible for efficiently optimized and decreased server load by 22% and application load time by 40%",
+    // desc: "I worked as frontend web developer to design web app that include CRM and a Real State Website. ",
   },
   {
-    role: "API Engineer",
-    company: "Duseca Software",
-    companylogo: "/img/icons/common/dusecaSoftware.jpg",
-    date: "Jan 2022 – Mar 2022",
-    desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "Remote Intern",
+    company: "TCS iON",
+    companylogo: "/img/icons/common/tcs.jpg",
+    date: "May 2020 – Jul 2020",
+    desc: "Skills: Shell Scripting ·Linux ·Terminal ·Containerization ·Amazon EC2 ·Putty ·Docker",
   },
   {
-    role: "Full Stack Developer",
-    company: "Bleed-AI",
-    companylogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Wapidu",
-    companylogo: "/img/icons/common/wapidu.jpg",
-    date: "Sept 2021",
-    desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-  },
+    role: "Remote Intern",
+    company: "Verzeo Edutech",
+    companylogo: "/img/icons/common/v.png",
+    date: "May 2020 – Jul 2020",
+    desc: "In this project-based internship, the team of Three members dealt with a dataset and implemented Data Processing/Analysis using libraries like matplotlib and pandas. Skills: Python ·Seaborn ·Matplotlib ·NumPy ·EDA ·Data Analysis"
+  }
 ];
 
 export const projects = [
-  {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
-  },
   {
     name: "AtlasMart",
     desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
