@@ -173,12 +173,12 @@ export const projects = [
 
 export const feedbacks = [
   {
-    name: "Anuj Shrivastava - SDE @SeedWill Consulting Pvt. Ltd",
+    name: "Anuj Shrivastava - SDE @SeedWill Consulting Pvt.Ltd",
     feedback:
-      "Been working with jay for a while, he has demonstrated quick learning and realisation skills.",
+      "Been working with jay for a while, he has demonstrated quick learning and realisation skills. I’m lucky to have him on my team",
   },
   {
-    name: "Ram Sharan Mittal - CTO @SeedWill Consulting Pvt. Ltd",
+    name: "Ram Sharan Mittal - CTO @SeedWill Consulting Pvt.Ltd",
     feedback:
       "He`s a quick Learner and made his impact within our team in a very short time.",
   },
