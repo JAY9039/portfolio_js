@@ -8114,7 +8114,7 @@ button.bg-darker:focus {
 
 .mt-5,
 .my-5 {
-	margin-top: 3rem !important;
+	margin-top: 1.4rem !important;
 }
 
 .mr-5,
@@ -8124,7 +8124,7 @@ button.bg-darker:focus {
 
 .mb-5,
 .my-5 {
-	margin-bottom: 3rem !important;
+	margin-bottom: 0rem !important;
 }
 
 .ml-5,
@@ -15355,7 +15355,7 @@ button.section-darker:focus {
 		padding-top: 250px !important;
 	}
 	.pb-250 {
-		padding-bottom: 250px !important;
+		padding-bottom: 120px !important;
 	}
 	.pt-300 {
 		padding-top: 300px !important;
@@ -18141,8 +18141,8 @@ textarea[resize="horizontal"] {
 }
 
 .section-lg {
-	padding-top: 6rem;
-	padding-bottom: 6rem;
+	padding-top: 5.5rem;
+	padding-bottom: 2.5rem;
 }
 
 .section-sm {

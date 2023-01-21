@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 
 const Feedbacks = () => {
 	return feedbacks && (
-		<section className="section section-lg">
+		<section className="section section-lg" style={{marginTop:"-100px"}}>
 			<Container>
 				<div className="d-flex p-4">
 					<div>

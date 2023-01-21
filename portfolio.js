@@ -16,7 +16,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  // url: "https://1hanzla100.github.io/",
+  url: "https://sharmajay.netlify.app",
   linkedin: "https://www.linkedin.com/in/j-shharma/",
   github: "https://github.com/JAY9039",
   instagram: "https://www.instagram.com/j_shharma/",
@@ -72,103 +72,6 @@ export const skillsSection = {
         },
       ],
     },
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-    //   skills: [
-    //     emoji("⚡ Experience of working on multiple cloud platforms"),
-    //     emoji(
-    //       "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-    //     ),
-    //     emoji(
-    //       "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-    //     ),
-    //   ],
-    //   softwareSkills: [
-    //     // ? Check README To get icon details
-    //     {
-    //       skillName: "AWS",
-    //       fontAwesomeClassname: "logos:aws",
-    //     },
-    //     {
-    //       skillName: "Azure",
-    //       fontAwesomeClassname: "logos:microsoft-azure",
-    //     },
-    //     {
-    //       skillName: "Heroku",
-    //       fontAwesomeClassname: "logos:heroku-icon",
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "logos:postgresql",
-    //     },
-    //     {
-    //       skillName: "Github",
-    //       fontAwesomeClassname: "akar-icons:github-fill",
-    //     },
-    //     {
-    //       skillName: "Docker",
-    //       fontAwesomeClassname: "logos:docker-icon",
-    //     },
-    //     {
-    //       skillName: "Github Actions",
-    //       fontAwesomeClassname: "logos:github-actions",
-    //     },
-    //     {
-    //       skillName: "Cloudinary",
-    //       fontAwesomeClassname: "logos:cloudinary",
-    //     },
-    //     {
-    //       skillName: "Nginx",
-    //       fontAwesomeClassname: "logos:nginx",
-    //     },
-    //     {
-    //       skillName: "Sentry",
-    //       fontAwesomeClassname: "logos:sentry-icon",
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "Blockchain",
-    //   lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-    //   skills: [
-    //     emoji(
-    //       "⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-    //     ),
-    //     emoji(
-    //       "⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-    //     ),
-    //     emoji(
-    //       "⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-    //     ),
-    //     emoji("⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"),
-    //     emoji(
-    //       "⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-    //     ),
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Ethereum",
-    //       fontAwesomeClassname: "logos:ethereum",
-    //     },
-    //     {
-    //       skillName: "Solidity",
-    //       fontAwesomeClassname: "logos:solidity",
-    //     },
-    //     {
-    //       skillName: "Web3js",
-    //       fontAwesomeClassname: "logos:web3js",
-    //     },
-    //     {
-    //       skillName: "Metamask",
-    //       fontAwesomeClassname: "logos:metamask-icon",
-    //     },
-    //     {
-    //       skillName: "Ganache",
-    //       fontAwesomeClassname: "logos:ganache-icon",
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -270,14 +173,14 @@ export const projects = [
 
 export const feedbacks = [
   {
-    name: "P1",
+    name: "Anuj Shrivastava - SDE @SeedWill Consulting Pvt. Ltd",
     feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+      "Been working with jay for a while, he has demonstrated quick learning and realisation skills.",
   },
   {
-    name: "P2",
+    name: "Ram Sharan Mittal - CTO @SeedWill Consulting Pvt. Ltd",
     feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+      "He`s a quick Learner and made his impact within our team in a very short time.",
   },
 ];
 
@@ -289,9 +192,9 @@ export const seoData = {
   title: "JAY SHARMA",
   description:
     "A passionate Full Stack Web Developer and Blockchain Developer.",
-  author: "Hanzla Tauqeer",
-  image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-  //   url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Jay Sharma",
+  image: "https://avatars.githubusercontent.com/u/53913697?v=4",
+  url: "https://sharmajay.netlify.app",
   keywords: [
     "Jay",
     "Jay Sharma",
@@ -301,5 +204,10 @@ export const seoData = {
     "Jay Portfolio ",
     "Jay Shamra Portfolio",
     "Jay VIT Portfolio",
+    "Portfolio jay sharma",
+    "Portfolio jay sharma gwalior",
+    "jay sharma gwalior Portfolio",
+    "Portfolio jay gwalior",
+    "gwalior Portfolio jay",
   ],
 };
