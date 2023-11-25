@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to My Portfolio 👋</h1>
 <p align="center">
-My Portfolio is built with React.js | Bootstrap that helps me showcase my work, skills and Experience as a software developer.
+My Portfolio is built with React.js. My portfolio helps me showcasing my work, skills and Experience as a software developer.
 </p>
 <p align="center">
   <kbd>
