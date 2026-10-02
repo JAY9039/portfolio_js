@@ -2,8 +2,15 @@ import dynamic from "next/dynamic";
 import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
+const Mission = dynamic(() => import("../containers/Mission"));
 const Skills = dynamic(() => import("../containers/Skills"));
-const Proficiency = dynamic(() => import("../containers/Proficiency"));
+const EngineeringStrengths = dynamic(() =>
+  import("../containers/EngineeringStrengths")
+);
+const Impact = dynamic(() => import("../containers/Impact"));
+const CertificationRoadmap = dynamic(() =>
+  import("../containers/CertificationRoadmap")
+);
 const Education = dynamic(() => import("../containers/Education"));
 const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
@@ -14,6 +21,7 @@ const GithubProfileCard = dynamic(() =>
 import { openSource, showContactUs } from "../portfolio";
 import SEO from "../components/SEO";
 import Contact from "../components/ContactUs.jsx";
+import PortfolioAssistant from "../components/PortfolioAssistant";
 
 export default function Home({ githubProfileData }) {
   return (
@@ -21,19 +29,23 @@ export default function Home({ githubProfileData }) {
       <SEO />
       <Navigation />
       <Greetings />
+      <Mission />
       <Skills />
-      <Proficiency />
+      <EngineeringStrengths />
+      <Impact />
+      <CertificationRoadmap />
       <Education />
       <Experience />
       <Feedbacks />
       <Projects />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard prof={githubProfileData} />
+      <PortfolioAssistant />
     </div>
   );
 }
 
-Home.prototype = {
+Home.propTypes = {
   githubProfileData: PropTypes.object.isRequired,
 };
 

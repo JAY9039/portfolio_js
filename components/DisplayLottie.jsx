@@ -1,18 +1,14 @@
-import React from "react";
-import Lottie from "react-lottie";
+import { Lottie } from "lottie-react";
 
 const GreetingLottie = ({ animationPath }) => {
-	const defaultOptions = {
-		loop: true,
-		autoplay: true,
-		path: animationPath,
-	};
-
-	return (
-		<div onClick={() => null}>
-			<Lottie options={defaultOptions} />
-		</div>
-	);
+  return (
+    <Lottie
+      src={animationPath}
+      loop
+      autoplay
+      style={{ width: "100%", height: "100%" }}
+    />
+  );
 };
 
 export default GreetingLottie;
