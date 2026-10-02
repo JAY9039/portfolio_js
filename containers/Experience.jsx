@@ -2,8 +2,6 @@ import React from "react";
 import { experience } from "../portfolio";
 import { Container, Row } from "reactstrap";
 
-import { Fade } from "react-reveal";
-
 import ExperienceCard from "../components/ExperienceCard";
 
 const Experience = () => {
@@ -20,7 +18,7 @@ const Experience = () => {
 						<h4 className="display-3 text-info">Experience</h4>
 					</div>
 				</div>
-				<Row className="row-grid align-items-start">
+				<Row className="experience-grid">
 					{experience.map((data, i) => {
 						return <ExperienceCard key={i} data={data} />;
 					})}

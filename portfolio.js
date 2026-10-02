@@ -1,12 +1,33 @@
-import emoji from "react-easy-emoji";
-
 export const greetings = {
   name: "Jay Sharma",
-  title: "Hi, I'm Jay",
+  title: "Hi, I'm Jay Sharma",
   description:
-    "Proficient in the analysis of software design requirements and extensive experience in front-end development. Additionally, I am skilled at initiating web projects from inception, implementing innovative solutions, and creating engaging frontend applications through polished code.",
+    "Software Engineer with 4+ years of experience building scalable, offline-first web applications for enterprise SaaS and compliance. I specialize in React, Next.js, and TypeScript, delivering responsive, performant features from implementation through production.",
   resumeLink:
-    "https://drive.google.com/file/d/1BV_L8mFKBswFlXf-SnoBtx-jMVJy77iS/view?usp=sharing",
+    "https://drive.google.com/file/d/1re6n9f33WzNsdr08UOyQxH0l5WdB9BRC/view?usp=sharing",
+};
+
+export const mission = {
+  title: "My Mission",
+  description:
+    "I build dependable, accessible web applications that make complex enterprise workflows simpler. My focus is on resilient offline-first experiences, thoughtful performance, and secure interfaces that help people get important work done wherever they are.",
+  principles: [
+    {
+      title: "Design for real-world use",
+      description:
+        "Create responsive, intuitive experiences that keep essential workflows usable across devices and connectivity conditions.",
+    },
+    {
+      title: "Build with care",
+      description:
+        "Prioritize accessible interfaces, secure access, maintainable components, and performance throughout the development process.",
+    },
+    {
+      title: "Deliver end to end",
+      description:
+        "Collaborate across product, backend, and QA teams to take useful features from design and implementation through testing and reliable deployment.",
+    },
+  ],
 };
 
 export const openSource = {
@@ -27,15 +48,16 @@ export const socialLinks = {
 export const skillsSection = {
   title: "What I do",
   subTitle:
-    "A CRAZY FRONTEND DEVELOPER WHO WANTS TO EXPLORE TECH IN MORE DETAIL | I ASPIRE TO GO FULL STACK",
+    "I build responsive, performant, and resilient web applications for enterprise workflows.",
   data: [
     {
       title: "Frontend Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        "Building responsive Single-Page-Apps (SPAs) in React.js",
-        "Building responsive static websites using Next.js",
-        "Integrated API calls using Redux-Toolkit",
+        "Building responsive web applications and progressive web apps with React, Next.js, and TypeScript.",
+        "Creating maintainable interfaces with reusable components, accessible patterns, and performance in mind.",
+        "Integrating REST APIs and managing application state with Redux Toolkit, React Query, Zustand, and Context API.",
+        "Testing user experiences with Jest, React Testing Library, and Cypress.",
       ],
       softwareSkills: [
         {
@@ -51,6 +73,10 @@ export const skillsSection = {
           fontAwesomeClassname: "logos:javascript",
         },
         {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "logos:typescript-icon",
+        },
+        {
           skillName: "Reactjs",
           fontAwesomeClassname: "vscode-icons:file-type-reactjs",
         },
@@ -61,6 +87,14 @@ export const skillsSection = {
         {
           skillName: "Redux",
           fontAwesomeClassname: "logos:redux",
+        },
+        {
+          skillName: "Material UI",
+          fontAwesomeClassname: "logos:material-ui",
+        },
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "logos:tailwindcss-icon",
         },
         {
           skillName: "NPM",
@@ -74,21 +108,6 @@ export const skillsSection = {
     },
   ],
 };
-
-export const SkillBars = [
-  {
-    Stack: "Vanilla JS", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
-  },
-  {
-    Stack: "ReactJs",
-    progressPercentage: "88",
-  },
-  {
-    Stack: "NextJs",
-    progressPercentage: "82",
-  },
-];
 
 export const educationInfo = [
   {
@@ -108,94 +127,147 @@ export const educationInfo = [
     subHeader: "Bachelor of Computer Application",
     duration: "Jul 2018 - Jul 2021",
     desc: "Part of Amity-Coding-Club. Hosted coding events and participated in them as well.",
-    grade: "CGPA 8.1",
+    grade: "CGPA 8.0",
     descBullets: [
-      "Graduated with a 8.1 CGPA in Bachelor of Computer Application from Amity university.",
+      "Graduated with an 8.0 CGPA in Bachelor of Computer Application from Amity University.",
+      "Participated in and hosted coding events as a member of the Amity Coding Club.",
     ],
   },
 ];
 
 export const experience = [
   {
-    role: "Frontend Developer - ReactJs",
+    role: "Senior Software Engineer",
+    company: "Opteamix Technology Solutions",
+    companylogo: "/img/icons/common/opteamix.png",
+    companyLogoWide: true,
+    date: "Apr 2026 – Present",
+    desc: "Building an enterprise field-operations Progressive Web Application for desktop and mobile, with offline-first workflows, responsive data-intensive experiences, and reliable CI/CD.",
+    descBullets: [
+      "Implement offline capabilities using SQLite and local persistence so critical workflows remain available with limited connectivity.",
+      "Improve GPS and media-upload workflows by reducing unnecessary rendering and network overhead.",
+      "Streamline CI/CD pipelines with Jenkins and GitHub Actions to improve build and deployment reliability.",
+      "Act as the React subject-matter expert, leading technical discussions with product, backend, and QA.",
+      "Architect and deliver end-to-end frontend features, supporting stable production deployments.",
+    ],
+  },
+  {
+    role: "Software Engineer",
     company: "Solytics Partners",
     companylogo: "/img/icons/common/sp.jpeg",
-    date: "Aug 2023 – Ongoing",
-    desc: "Contributed to a high-performance SAAS product for swift user experiences, facilitating FINCEN registration with identity verification. Led a major overhaul, integrating React-Tables, Material-UI, and Formik for improved UI/UX.",
+    date: "Aug 2023 – Mar 2026",
+    desc: "Developed a React regulatory-compliance platform with complex validation and secure document handling.",
+    descBullets: [
+      "Implemented validation across 80+ interdependent fields in a regulatory workflow.",
+      "Built reusable Material UI and Sass components for consistent, responsive module experiences.",
+      "Used code splitting and lazy loading to reduce application load times by 50%.",
+      "Integrated Keycloak authentication with role-based access control and single sign-on, and contributed WCAG 2.1 improvements.",
+    ],
   },
   {
-    role: "Jr. Software Developer",
-    company: "AppHie Technologies",
+    role: "Frontend Developer",
+    company: "Apphie Technologies",
     companylogo: "/img/icons/common/hq.jpeg",
-    date: "Apr 2023 – Jul 2022",
-    desc: "Working on a CRM and a Real-Estate Application with business logic and optimal functionality.",
+    date: "Mar 2023 – Jul 2023",
+    desc: "Developed the React frontend for the 1Kart e-commerce aggregator, including product listings, product discovery, and a dynamic coupon system.",
+    descBullets: [
+      "Built React product-listing experiences for the 1Kart e-commerce aggregator.",
+      "Implemented dynamic filtering, sorting, and product-discovery features.",
+      "Developed a dynamic coupon system and documented new functionality with team demos.",
+    ],
   },
   {
-    role: "Software Developer Intern - ReactJs",
-    company: "SeedWill Consulting",
+    role: "Software Developer Intern – React",
+    company: "Seedwill Consulting",
     companylogo: "/img/icons/common/sw.jpg",
-    date: "Apr 2022 – Mar 2023",
-    desc: "Worked on a CRM and a Real-Estate Application with business logic and optimal functionality.In this migration project our team was responsible for efficiently optimized and decreased server load by 22% and application load time by 40%",
-  },
-  {
-    role: "DevOps Engineer Intern",
-    company: "TCS iON",
-    companylogo: "/img/icons/common/tcs.jpg",
-    date: "May 2020 – Jul 2020",
-    desc: "Skills: Shell Scripting ·Linux ·Terminal ·Containerization ·Amazon EC2 ·Putty ·Docker",
-  },
-  {
-    role: "Python Developer Intern",
-    company: "Verzeo Edutech",
-    companylogo: "/img/icons/common/v.png",
-    date: "May 2020 – Jul 2020",
-    desc: "In this project-based internship, the team of Three members dealt with a dataset and implemented Data Processing/Analysis using libraries like matplotlib and pandas. Skills: Python ·Seaborn ·Matplotlib ·NumPy ·EDA ·Data Analysis",
+    date: "Aug 2022 – Mar 2023",
+    desc: "Worked on React and Redux applications, building reusable UI components and improving web performance and user experience.",
+    descBullets: [
+      "Built reusable UI components for React and Redux apps while collaborating on performance and user-experience improvements.",
+      "Revamped the corporate website, contributing to 40% higher user engagement and 25% more organic traffic over three months.",
+    ],
   },
 ];
 
 export const projects = [
   {
     name: "Dev Finder",
-    desc: "A small react app that helps us find and see the stats of you favorite GitHub user.",
+    desc: "A React app for looking up a GitHub user and exploring their public profile and activity.",
     github: "https://github.com/JAY9039/Sweet-Dev-Finder",
   },
   {
     name: "Finanssi",
-    desc: "Finanssi is a tool to track changes for your favorite Crypto Coins and Stocks, News about the recent market changes, Information regarding how investments work in stocks and coin market.",
+    desc: "A finance dashboard for following cryptocurrency and stock movements, market news, and educational investing resources.",
     github: "https://github.com/JAY9039/Finanssi",
   },
   {
     name: "Wordle Game",
-    desc: "Just a small word Guessing game using ReactJs",
+    desc: "A word-guessing game built with React.",
     github: "https://github.com/JAY9039/Sweet-Wordle",
   },
   {
     name: "Finanssi Coins",
-    desc: "This app shows you the price of some leading cryptocurrencies and Plots a graph that shows their 7 day change in its pricing.",
+    desc: "A cryptocurrency tracker that displays leading coin prices and visualizes seven-day price changes.",
     github: "https://github.com/JAY9039/FinanssiCoins",
   },
   {
     name: "Accu-Weather",
-    desc: "This react-native app gets you the real time weather condition of the city of your choice.",
+    desc: "A React Native weather app showing current conditions for a city of your choice.",
     github: "https://github.com/JAY9039/AccuWeather",
   },
   {
     name: "Sweet-Netflix",
-    desc: "A simple Netflix UI clone.",
+    desc: "A responsive streaming-service interface recreation inspired by Netflix.",
     github: "https://github.com/JAY9039/Sweet-Netflix",
   },
 ];
 
 export const feedbacks = [
   {
-    name: "Ram Sharan Mittal - CTO @SeedWill Consulting Pvt.Ltd",
+    name: "Anmol Gupta",
+    role: "Senior Android Engineer",
+    company: "Airtle",
+    context: "Building the Airtel Fiverse app",
+    relationship: "Studied together",
+    date: "January 18, 2026",
     feedback:
-      "He`s a quick Learner and made his impact within our team in a very short time.",
+      "I studied with Jay and had the opportunity to closely observe his approach to software engineering and UI architecture. Jay has a strong grasp of frontend fundamentals and consistently focuses on building scalable, maintainable solutions rather than quick hacks. What stands out is his clarity in UI architecture and his ability to think beyond just “making it work.” He pays attention to performance, reusability, and long-term scalability.",
   },
   {
-    name: "Anuj Shrivastava - SDE @SeedWill Consulting Pvt.Ltd",
+    name: "Prakash Naikwadi",
+    role: "Senior Software Engineer",
+    company: "Solytics Partners",
+    relationship: "Worked on the same team",
+    date: "May 16, 2025",
     feedback:
-      "Been working with jay for a while, he has demonstrated quick learning and realization skills. I’m lucky to have him on my team",
+      "I had the pleasure of working with Jay on our frontend team, where we developed React-based applications. He consistently delivered clean, efficient, and scalable code, with a strong grasp of modern frontend practices. Jay is a natural problem-solver—great at debugging, optimizing components, and collaborating on complex features.",
+  },
+  {
+    name: "Nilesh Kumar",
+    role: "Senior UI/UX Designer",
+    company: "Solytics Partners",
+    relationship: "Worked on the same team",
+    date: "May 16, 2025",
+    feedback:
+      "I’ve had the opportunity of working with Jay on MRM project and I can confidently say that he is one of the most talented front-end developers I’ve worked with. His deep understanding of modern frameworks, attention to detail, and ability to translate design into clean, responsive code is truly impressive.",
+  },
+  {
+    name: "Vedant Khullar",
+    role: "Senior Software Engineer, Financial Infrastructure",
+    company: "Turing (client: BlackRock)",
+    relationship: "Worked at different companies",
+    date: "May 17, 2025",
+    feedback:
+      "Jay is one of the sharpest frontend developers I’ve worked with. His React skills are top-notch, and he has a great eye for detail. Beyond just writing solid code, he’s someone who genuinely cares about the user experience. Always a pleasure to collaborate with him.",
+  },
+  {
+    name: "Laxman Pache",
+    role: "Full Stack Developer, MERN",
+    company: "Solytics Partners",
+    relationship: "Worked on the same team",
+    date: "May 17, 2025",
+    feedback:
+      "I worked with Jay as a frontend developer and really enjoyed collaborating with him. He's skilled, detail-oriented, and always ready to help the team. Jay writes clean code and handles challenges well. He's a great teammate and would be a strong addition to any company.",
   },
 ];
 

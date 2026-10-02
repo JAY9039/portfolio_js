@@ -3,7 +3,6 @@ import React from "react";
 import { projects } from "../portfolio";
 import { Container, Row } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
-import { Fade } from "react-reveal";
 
 const Projects = () => {
 	return projects && (
@@ -19,7 +18,7 @@ const Projects = () => {
 						<h4 className="display-3 text-info">Projects</h4>
 					</div>
 				</div>
-				<Row className="row-grid align-items-center">
+				<Row className="project-grid">
 					{projects.map((data, i) => {
 						return <ProjectsCard key={i} data={data} />;
 					})}
