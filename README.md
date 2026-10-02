@@ -1,29 +1,28 @@
-<h1 align="center">Welcome to My Portfolio 👋</h1>
+# 👋 Hi, I'm Jay Sharma
+
+### Software Engineer | React.js • Next.js • TypeScript | Frontend Engineering • Performance • Accessibility
+
 <p align="center">
-My Portfolio is built with React.js. My portfolio helps me showcasing my work, skills and Experience as a software developer.
+  <a href="https://sharmajay.netlify.app">
+    <img src="./picture.PNG" alt="Jay Sharma Portfolio" />
+  </a>
 </p>
+
+---
+
+## About
+
+Frontend-focused Software Engineer with **4+ years of experience** building scalable, responsive, and high-performance web applications with React.js, Next.js, and TypeScript.
+
+### 🔗 Quick Links
+
+- 🌐 **[Portfolio](https://sharmajay.netlify.app)**
+- 💼 **[LinkedIn](https://www.linkedin.com/in/j-shharma/)**
+- 🐙 **[GitHub](https://github.com/JAY9039)**
+- 📄 **[Resume](https://sharmajay.netlify.app)**
+
+---
+
 <p align="center">
-  <kbd>
-    <img  src="./picture.PNG">
-  </kbd>
+  Built with ❤️ by <a href="https://www.linkedin.com/in/j-shharma/">Jay Sharma</a>
 </p>
-
-## To view a live example, **[click here](https://sharmajay.netlify.app)**.
-
-## Sections
-
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Feedbacks\
-✔️ Projects\
-✔️ Github Profile
-
-👤 **Jay Sharma**
-
-- Website: https://sharmajay.netlify.app
-- Github: [@JAY9039](https://github.com/JAY9039)
-- LinkedIn: [@j-shharma](https://www.linkedin.com/in/j-shharma/)
-
-**Made with ♥ by** [Jay Sharma](https://www.linkedin.com/in/j-shharma/)
